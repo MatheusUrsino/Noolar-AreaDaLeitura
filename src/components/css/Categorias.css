@@ -38,8 +38,8 @@
     /* Estilos para o texto exibido no card */
 .textoDoCard {
     color: #006182; /* Cor do texto */
-    width: 50vw; /* Largura da caixa de texto */
-    font-size: 2vw; /* Tamanho da fonte baseado na largura da viewport */
+    width: 60vw; /* Largura da caixa de texto */
+    font-size: 3vw; /* Tamanho da fonte baseado na largura da viewport */
     padding: 2vw; /* Espaçamento interno da caixa de texto */
     border-radius: 0vh 10vh 10vh 0vh; /* Arredondamento dos cantos */
     background-color: #D9D9D9; /* Cor de fundo do card */
@@ -52,7 +52,7 @@
     font-weight: 700; /* Negrito no texto */
     display: flex; /* Utiliza Flexbox para alinhar o conteúdo */
     justify-content: center; /* Centraliza o título da categoria horizontalmente */
-    font-size: 2.5vw; /* Tamanho da fonte relativo à largura da viewport */
+    font-size: 4vw; /* Tamanho da fonte relativo à largura da viewport */
     width: auto; /* Largura automática */
     margin: 1vw 0; /* Ajuste o valor conforme necessário */
     padding: 0; /* Reduza o preenchimento se necessário */
