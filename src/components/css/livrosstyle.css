@@ -1,0 +1,119 @@
+
+
+/* Estilo para cada item de livro no carrossel */
+.livro {
+  position: relative;
+  margin-right: 6vw; /* Espaçamento à direita entre os livros */
+  text-align: center; /* Centraliza o texto do livro */
+}
+
+/* Estilo para o título (h4) de cada livro */
+.livro h4 {
+  opacity: 0; /* Título invisível inicialmente */
+  color: #f6784a00; /* Cor invisível, provavelmente um valor não intencional */
+  font-size: 1.3vw; /* Tamanho do título */
+  color: #f6794a; /* Cor de destaque laranja */
+  margin-bottom: 0.5vw; /* Margem inferior do título */
+  margin-top: 0vw; /* Sem margem superior */
+  transition: opacity 0.3s ease, font-size 0.3s ease; /* Transição suave de opacidade e tamanho */
+}
+
+/* Estilo para o parágrafo de cada livro */
+.livro p {
+  opacity: 0; /* Parágrafo invisível inicialmente */
+  color: #f6794a; /* Cor laranja */
+  font-size: 1vw; /* Tamanho do parágrafo */
+  margin-top: 0; /* Sem margem superior */
+  transition: opacity 0.3s ease, font-size 0.3s ease; /* Transição suave de opacidade e tamanho */
+}
+
+/* Estilo ao passar o mouse sobre o título do livro */
+.livro:hover h4 {
+  opacity: 1; /* Título visível */
+  font-size: 1.3vw; /* Tamanho do título */
+  color: #f6794a; /* Cor laranja */
+  margin-bottom: 0.5vw; /* Margem inferior */
+  margin-top: 0vw; /* Sem margem superior */
+}
+
+/* Estilo ao passar o mouse sobre o parágrafo do livro */
+.livro:hover p {
+  opacity: 1; /* Parágrafo visível */
+  color: #f6794a; /* Cor laranja */
+  font-size: 1vw; /* Tamanho do parágrafo */
+  margin-top: 0; /* Sem margem superior */
+}
+
+/* Estilo para a imagem de cada livro */
+.imagemLivro {
+  width: 8vw; /* Largura da imagem */
+  border-radius: 1vw; /* Bordas arredondadas */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Transição suave para escala e brilho */
+}
+
+/* Efeito de hover na imagem do livro */
+.livro:hover .imagemLivro {
+  transform: scale(1.05); /* Aumenta levemente a imagem */
+  filter: brightness(0.7); /* Escurece a imagem para efeito de destaque */
+}
+
+
+@media (max-width: 800px)
+{
+ /* Estilo para cada item de livro no carrossel */
+.livro {
+  position: relative;
+  margin-right: 6vw; /* Espaçamento à direita entre os livros */
+  text-align: center; /* Centraliza o texto do livro */
+}
+
+/* Estilo para o título (h4) de cada livro */
+.livro h4 {
+  opacity: 0; /* Título invisível inicialmente */
+  color: #f6784a00; /* Cor invisível, provavelmente um valor não intencional */
+  font-size: 2.3vw; /* Tamanho do título */
+  color: #f6794a; /* Cor de destaque laranja */
+  margin-bottom: -0.5vw; /* Margem inferior do título */
+  margin-top: 0vw; /* Sem margem superior */
+  transition: opacity 0.3s ease, font-size 0.3s ease; /* Transição suave de opacidade e tamanho */
+}
+
+/* Estilo para o parágrafo de cada livro */
+.livro p {
+  opacity: 0; /* Parágrafo invisível inicialmente */
+  color: #f6794a; /* Cor laranja */
+  font-size: 2vw; /* Tamanho do parágrafo */
+  margin-top: 0; /* Sem margem superior */
+  transition: opacity 0.3s ease, font-size 0.3s ease; /* Transição suave de opacidade e tamanho */
+}
+
+/* Estilo ao passar o mouse sobre o título do livro */
+.livro:hover h4 {
+  opacity: 1; /* Título visível */
+  font-size: 1.8vw; /* Tamanho do título */
+  color: #f6794a; /* Cor laranja */
+  margin-bottom: -0.5vw; /* Margem inferior */
+  margin-top: 0vw; /* Sem margem superior */
+}
+
+/* Estilo ao passar o mouse sobre o parágrafo do livro */
+.livro:hover p {
+  opacity: 1; /* Parágrafo visível */
+  color: #f6794a; /* Cor laranja */
+  font-size: 1.5vw; /* Tamanho do parágrafo */
+  margin-top: 0; /* Sem margem superior */
+}
+
+/* Estilo para a imagem de cada livro */
+.imagemLivro {
+  width: 12vw; /* Largura da imagem */
+  border-radius: 1vw; /* Bordas arredondadas */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Transição suave para escala e brilho */
+}
+
+/* Efeito de hover na imagem do livro */
+.livro:hover .imagemLivro {
+  transform: scale(1.05); /* Aumenta levemente a imagem */
+  filter: brightness(0.7); /* Escurece a imagem para efeito de destaque */
+}
+}

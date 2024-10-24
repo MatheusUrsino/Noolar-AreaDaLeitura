@@ -1,0 +1,72 @@
+/* Estilos para o texto exibido no card */
+.textoDoCard {
+    color: #006182; /* Cor do texto */
+    width: 40vw; /* Largura da caixa de texto */
+    font-size: 1.4vw; /* Tamanho da fonte baseado na largura da viewport */
+    padding: 2vw; /* Espaçamento interno da caixa de texto */
+    border-radius: 0vh 10vh 10vh 0vh; /* Arredondamento dos cantos */
+    background-color: #D9D9D9; /* Cor de fundo do card */
+    box-shadow: 0.2vw 1vw 1vw rgba(0, 0, 0, 0.537); /* Sombra para dar efeito de elevação */
+}
+
+/* Estilos para o título da categoria */
+.Categoria {
+    color: #198168; /* Cor do texto da categoria */
+    font-weight: 700; /* Negrito no texto */
+    display: flex; /* Utiliza Flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o título da categoria horizontalmente */
+    font-size: 2vw; /* Tamanho da fonte relativo à largura da viewport */
+    width: auto; /* Largura automática */
+    margin: 1vw 0; /* Ajuste o valor conforme necessário */
+    padding: 0; /* Reduza o preenchimento se necessário */
+}
+
+
+/* Estilos para a caixa de livros */
+.box-livros {
+    
+    display: flex; /* Flexbox para organizar os elementos */
+    flex-direction: column; /* Coluna, para empilhar os itens verticalmente */
+    position: relative; /* Posição relativa para ajustes finos */
+    left: 0; /* Alinhamento à esquerda */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    margin-top: 10vw;
+}
+
+@media (max-width: 800px)
+{
+    /* Estilos para o texto exibido no card */
+.textoDoCard {
+    color: #006182; /* Cor do texto */
+    width: 50vw; /* Largura da caixa de texto */
+    font-size: 2vw; /* Tamanho da fonte baseado na largura da viewport */
+    padding: 2vw; /* Espaçamento interno da caixa de texto */
+    border-radius: 0vh 10vh 10vh 0vh; /* Arredondamento dos cantos */
+    background-color: #D9D9D9; /* Cor de fundo do card */
+    box-shadow: 0.2vw 1vw 1vw rgba(0, 0, 0, 0.537); /* Sombra para dar efeito de elevação */
+}
+
+/* Estilos para o título da categoria */
+.Categoria {
+    color: #198168; /* Cor do texto da categoria */
+    font-weight: 700; /* Negrito no texto */
+    display: flex; /* Utiliza Flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o título da categoria horizontalmente */
+    font-size: 2.5vw; /* Tamanho da fonte relativo à largura da viewport */
+    width: auto; /* Largura automática */
+    margin: 1vw 0; /* Ajuste o valor conforme necessário */
+    padding: 0; /* Reduza o preenchimento se necessário */
+}
+
+
+/* Estilos para a caixa de livros */
+.box-livros {
+    
+    display: flex; /* Flexbox para organizar os elementos */
+    flex-direction: column; /* Coluna, para empilhar os itens verticalmente */
+    position: relative; /* Posição relativa para ajustes finos */
+    left: 0; /* Alinhamento à esquerda */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    margin-top: 10vw;
+}
+}
