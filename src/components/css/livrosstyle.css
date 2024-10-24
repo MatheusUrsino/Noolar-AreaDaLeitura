@@ -106,7 +106,7 @@
 
 /* Estilo para a imagem de cada livro */
 .imagemLivro {
-  width: 18vw; /* Largura da imagem */
+  width: 40vw; /* Largura da imagem */
   border-radius: 1vw; /* Bordas arredondadas */
   transition: transform 0.3s ease, filter 0.3s ease; /* Transição suave para escala e brilho */
 }
