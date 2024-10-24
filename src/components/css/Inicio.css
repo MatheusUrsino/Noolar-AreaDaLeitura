@@ -99,10 +99,10 @@
   }
   
   .subtitulo {
-    font-size: 3.5vw;
-    font-weight: 600;
-    width: 75%;
-    max-width: 75%;
+    font-size: 4vw;
+    font-weight: 300;
+    width: 85%;
+    max-width: 85%;
     letter-spacing: 0.2%;
     margin-top: -1;
     color: white;
@@ -121,7 +121,7 @@
     flex-direction: column;
     position: absolute;
     top: 13vw;
-    right: 10vw;
+    right: 2vw;
     width: 20%;
     height: fit-content;
   }
